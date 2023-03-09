@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona3</title>
+</head>
+
+<body>
+    <h1 align="center">Formularz</h1>
+    <br>
+    
+    <form >
+        <label for="Name">Imie:</label>
+        <input type="text" id="Name" placeholder="Imię">
+        <br>
+
+        <label for="Surname">Nazwisko:</label>
+        <input type="text" id="Surname" placeholder="Nazwisko">
+        <br>
+
+        <label for="PhoneNumb">Numer telefonu:</label>
+        <input type="tel" id="PhoneNumb" pattern="[0-9]{3} [0-9]{3} [0-9]{3}" placeholder="XXX XXX XXX">
+        <br>
+
+        <label for="Street">Ulica:</label>
+        <input type="text" id="Street" placeholder="Ulica">
+        <br>
+
+        <label for="City">Miasto:</label>
+        <input type="text" id="City" placeholder="Miasto">
+        <br>
+
+        <label for="HouseNumb">Numery domu:</label>
+        <input type="text" id="HouseNumb" placeholder="Numery domu">
+        <br>
+
+        <label>Płeć:</label>
+        <input type="radio" id="Mężczyzna" name="Gender">
+        <label for="Mężczyzna">Mężczyzna</label>
+        <input type="radio" id="Kobieta" name="Gender">
+        <label for="Kobieta">Kobieta</label> <br>
+
+        <label for="Date">Data urodzenia:</label>
+        <input type="date" id="Date"><br>
+
+        <label for="PESEL">PESEL:</label>
+        <input type="text" id="PESEL" pattern="[0-9]{11}" placeholder="xxxxxxxxxxx"> <br>
+
+        <label for="PostCode">Kod pocztowy:</label>
+        <input type="text" id="PostCode" pattern="[0-9]{2}-{0-9}{3}" placeholder="xx-xxx"> <br>
+        <input type="submit">
+
+
+
+    </form>
+
+
+</body>
+
+</html>
