@@ -11,8 +11,9 @@
 <body>
     <h1 align="center">Formularz</h1>
     <br>
-    
-    <form >
+
+    <form>
+
         <label for="Name">Imie:</label>
         <input type="text" id="Name" placeholder="Imię">
         <br>
@@ -22,7 +23,7 @@
         <br>
 
         <label for="PhoneNumb">Numer telefonu:</label>
-        <input type="tel" id="PhoneNumb" pattern="[0-9]{3} [0-9]{3} [0-9]{3}" placeholder="XXX XXX XXX">
+        <input type="tel" id="PhoneNumb" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" placeholder="XXXXXXXXX">
         <br>
 
         <label for="Street">Ulica:</label>
@@ -44,19 +45,30 @@
         <label for="Kobieta">Kobieta</label> <br>
 
         <label for="Date">Data urodzenia:</label>
-        <input type="date" id="Date"><br>
+        <input type="date" id="Date">
+        <br>
 
+        <label>Prawo jazdy: </label>
+        <input type="radio" id="Own" name="DrvLic">
+        <label for="B2">Posiadane</label>
+        <input type="radio" id="NotOwn" name="DrvLic">
+        <label for="Kobieta">Brak</label>
+
+        <br>
         <label for="PESEL">PESEL:</label>
         <input type="text" id="PESEL" pattern="[0-9]{11}" placeholder="xxxxxxxxxxx"> <br>
 
         <label for="PostCode">Kod pocztowy:</label>
         <input type="text" id="PostCode" pattern="[0-9]{2}-{0-9}{3}" placeholder="xx-xxx"> <br>
+
+
+        <label for="Comments">Uwagi:</label> <br>
+        <textarea id="Comments" rows="3" cols="30" placeholder="Wpisz swoje uwagi"></textarea><br>
+
         <input type="submit">
-
-
-
     </form>
-
+<br>
+<a href="index.html">Powrót na główną strone</a>
 
 </body>
 
